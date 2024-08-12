@@ -1,18 +1,20 @@
 [
-   {
-     "name": "Stovetop Mac and Cheese",
-     "author": "Stephanie Melchione",
-     "description": "This Creamy Stovetop Mac and Cheese is the BEST 30-minute meal for a busy week. Your family will love it every time!",
-     "website": "https://thecozycook.com/stovetop-mac-and-cheese/",
-     "recipeImage": "https://thecozycook.com/wp-content/uploads/2021/10/Stovetop-Mac-and-Cheese-2.jpg",
-     "authorImage": "https://thecozycook.com/wp-content/uploads/2021/11/The-Cozy-Cook.jpg",
-     "ingredients": [
-       "uncooked macaroni",
-       "butter",
-       "flour",
-       "heavy cream",
-       "milk"
-     ]
-   }
- ]
- 
+  {
+    "name": "Beef Wellington",
+    "author": "Gordon Ramsay",
+    "description": "Beef Wellington is a classic and elegant dish that’s perfect for special occasions. It features a succulent beef tenderloin wrapped in a flavorful mushroom duxelles, then encased in a golden, flaky puff pastry. This dish combines rich and savory flavors with a sophisticated presentation, making it a standout centerpiece for any festive meal.",
+    "website": "https://www.gordonramsay.com/gr/recipes/beef-wellington/",
+    "recipeImage": "https://www.gordonramsay.com/assets/Uploads/_resampled/CroppedFocusedImage108081050-50-beef-well-banner.png",
+    "authorImage": "https://www.thesun.ie/wp-content/uploads/sites/3/2022/11/gordon-ramsay-idiot-sandwich-skit-774126703.jpg",
+    "ingredients": [
+      "2 x 400g beef filletsOlive oil, for frying",
+      "500g mixture of wild mushrooms, cleaned",
+      "1 thyme sprig, leaves only",
+      "500g puff pastry",
+      "8 slices of Parma ham",
+      "2 egg yolks, beaten with 1 tbsp water and a pinch of salt",
+      "Sea salt and freshly ground black pepper"
+
+    ]
+  }
+]

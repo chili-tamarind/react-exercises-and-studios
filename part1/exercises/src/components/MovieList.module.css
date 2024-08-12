@@ -1,7 +1,22 @@
+body {
+   background-color: rgb(65, 62, 62);
+}
+
+/* The text for the heading and list items can be any color EXCEPT black.*/
+/* The font size should be large enough to easily read.*/
+
 .movieText {
-   color: black;
+   color: rgb(101, 202, 233);
+   font-size: 15pt;
+   text-align: left; /* The movie list should have heading that aligns to the left. */
 }
 
 .movieHeading {
-   color: black;
+   color: rgb(101, 202, 233);
+   text-align: left;
+   font-size: 20pt;
+}
+
+.streams {
+   width: 50px;;
 }

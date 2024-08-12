@@ -7,12 +7,14 @@ import RecipeDisplay from './components/Recipe';
 function App() {
 
   return (
-    <>
-      <div className="App">
-        <RecipeDisplay />
-        <div className="recipePhotoBlock">
-          <BoardAssignment />
-          <StatusChange />
+    <> 
+    <div className="outerDiv">
+        <div className="App">
+          <RecipeDisplay />
+          <div className="recipePhotoBlock">
+            <BoardAssignment />
+            <StatusChange />
+          </div>
         </div>
       </div>
     </>

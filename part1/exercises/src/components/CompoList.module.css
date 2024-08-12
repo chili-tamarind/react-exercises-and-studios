@@ -1,0 +1,25 @@
+a {
+   color:rgb(221, 47, 163);
+}
+
+.bookImage {
+   height: 250px;
+   padding: 5px;
+}
+
+.bookHeader {
+   color: rgb(248, 234, 31);
+   text-align: left;
+   font-size: 20pt;
+}
+
+.hobbyURL {
+   font-size: 15px;
+}
+
+.hobbyHeader {
+   color: rgb(221, 47, 163);
+   text-align: left;
+   font-size: 20pt;
+}
+

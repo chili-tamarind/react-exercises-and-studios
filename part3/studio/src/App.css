@@ -1,8 +1,14 @@
+div {
+  background-color: rgb(255, 255, 255);
+}
+
 #root {
-  max-width: 1280px;
+  /* max-width: 1280px; */
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  padding: 10rem;
+  text-align: left;
+  background-image: url("https://thumbs.dreamstime.com/b/italian-food-hand-drawn-seamless-pattern-cuisine-menu-design-vector-illustration-pizza-pasta-risotto-ossobuco-87804429.jpg");
+  background-repeat: repeat;
 }
 
 .logo {
@@ -48,4 +54,13 @@
 
 .imageUpdates {
   object-fit: contain;
+  height: 350px;
+  display: block;
+  width: auto; 
+  padding: 2em;
+}
+
+.outerDiv {
+  border: 5px solid black;
+  padding: 50px;
 }
