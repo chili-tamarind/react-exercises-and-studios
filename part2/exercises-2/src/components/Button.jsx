@@ -2,10 +2,14 @@ import './styles.css';
 
 function Button() {
 
+   function onLearnMore(){
+      alert("Splash Splash Love");
+   };   
+
    return ( 
-         <button>
-            Learn More
-         </button>
+      <button className="learnButton" onClick={onLearnMore}>
+         Learn More!
+      </button>
    );
 }
 
