@@ -40,3 +40,22 @@
 .read-the-docs {
   color: #888;
 }
+
+.picDiv {
+  padding: 20px;
+  padding-bottom: 50px;
+}
+
+.leButton{
+  border: black solid;
+  margin-bottom: 20px;
+}
+
+li{
+  text-align: left;
+}
+
+.bolder{
+  font-weight: bold; 
+  color: red,
+}

@@ -2,17 +2,17 @@ import data from '../data.json';
 import { useState } from 'react';
 
 export default function MyProjects() {
-   const [index, setIndex] = useState(0);
+    const [index, setIndex] = useState(0);
 
   function handleClick() {
-   if (index < data.projects.length-1)
-   {
+    if (index < data.projects.length-1)
+    {
       setIndex(index + 1);
-   }
-   else
-   {
+    }
+    else
+    {
       setIndex(0);
-   }
+    }
   }
 
   let projects = data.projects;
@@ -20,12 +20,16 @@ export default function MyProjects() {
 
   return (
     <div>
-      <button onClick={handleClick}>
-        Next
+      <button 
+        className='leButton' onClick={handleClick}> Next Seogi 
       </button>
-      <h2>{project.canvas} by {project.designer}
-      </h2>
-      <img src={project.photoUrl} alt={project.alt} />
+
+      <div className='picDiv'>
+        <h2> {project.name} </h2>
+        <p> <span className='bolder'>Technique:</span> {project.technique}</p>    
+        <img src={project.photoUrl} alt={project.alt} height="350px"/>
+      </div>
+      
     </div>
   );
 }
