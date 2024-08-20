@@ -7,13 +7,13 @@ import RecipePhoto from './components/Photos.jsx';
 function App() {
   return (
       <div className="App">  
-          <div className="recipePhotoBlock">
-          <RecipePhoto /> 
+          <div className="introPhotoBlock">
+            <RecipeDescription />
           </div>
 
           <div className="recipePhotoBlock">
-            <RecipeDescription />
-            <RecipeIngredients />
+          <RecipePhoto /> 
+          <RecipeIngredients />
           </div>
       </div>
   );

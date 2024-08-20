@@ -3,6 +3,9 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-image: url('https://media.istockphoto.com/id/1437409147/vector/seamless-pattern-with-doodle-easter-kulich-cakes.jpg?s=612x612&w=0&k=20&c=CNVbEvn2PdcuydyMQD3YYbEAir3eLm5LvRJ6QL3_tWM=');
+  background-repeat: repeat; /* Ensures the image tiles */
+  background-size: auto; /* Keeps the image's original size */
 }
 
 .logo {
@@ -43,5 +46,15 @@
 
 .recipePhotoBlock {
   display: flex;
+  background-color: rgba(255, 255, 255, 0.95);   /*With transparency*/ 
   justify-content: space-evenly;
+}
+
+.introPhotoBlock {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.95);   /*With transparency*/  
+}
+
+div{
+  padding: 5px;
 }
